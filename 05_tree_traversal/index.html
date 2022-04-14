@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Tree Traversal</title>
+
+        <style>
+
+.tree {
+    margin: 0 0 0 30px;
+}
+
+input[type="checkbox"] {
+     display:inline-block;
+     width:28px;/* Розмір вашої кнопки або чекбокса */
+     height:28px;
+     vertical-align:middle;
+     cursor:pointer;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container" style="text-align: center">
+            <h1 style="color: maroon">Обхід дерева</h1>
+            <p><b>(Tree Traversal)</b>/p>
+            <h2>Алгоритми на JavaScript</h2>
+        </div>
+
+        <div class="container">
+            <ul class="tree">
+                <li>
+                    <input type="checkbox" />
+                    <ul class="tree">
+                        <li>
+                            <input type="checkbox" />
+                        </li>
+                        <li>
+                            <input type="checkbox" />
+                            <ul class="tree">
+                                <li>
+                                    <input type="checkbox" />
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                </li>
+            </ul>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
